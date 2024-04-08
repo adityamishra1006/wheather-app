@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -18,7 +22,7 @@
 
         <div class="weather-container">
             <!-- Grant Location -->
-            <div class="grant-location-container">
+            <div class="sub-container grant-location-container">
                 <img src="./assets/location.png" width="80" height="80" loading="lazy">
                 <p>Grant Location Access</p>
                 <p>Allow Access to get weather information</p>
@@ -26,7 +30,7 @@
             </div>
 
             <!-- search form -->
-            <form action="" class="form-contaier" data-searchForm>
+            <form action="" class="form-container" data-searchForm>
                 <input type="text" placeholder="Search for city..." data-searchInput>
                 <button class="btn">
                     <img src="./assets/search.png" alt="" width="20" height="20" loading="lazy">
@@ -40,7 +44,7 @@
             </div>
 
             <!-- weather information -->
-            <div class="user-info-container">
+            <div class="user-info-container sub-container">
                 <!-- city name and flag -->
                 <div class="name">
                     <p data-cityName></p>
@@ -64,7 +68,8 @@
                     <!-- card 2 -->
                     <div class="parameter">
                         <img src="./assets/humidity.png" alt="">
-                        <p data-humidity>Humidity</p>
+                        <p>Humidity</p>
+                        <p data-humidity></p>
                     </div>
                     <!-- card 3 -->
                     <div class="parameter">
