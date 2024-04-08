@@ -19,10 +19,6 @@ When you run the application, it will automatically attempt to detect your locat
 
 If you prefer to search for a specific city, you can do so by entering the city name when prompted.
 
-## Contributing
-
-We welcome contributions from the community. If you'd like to contribute, please fork the repository and create a pull request with your changes.
-
 
 ## Contact
 
